@@ -1,0 +1,33 @@
+.menuIcon{
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(80, 255, 240)!important;
+}
+
+.header{
+    background-color:rgb(10,21,39);
+}
+
+.main-logo{
+    height: 4rem;
+    margin: 10px;
+}
+
+.Logo{
+    background-color: rgb(13,24,46);
+}
+
+.Logo .IconButton{
+    color: white;
+}
+
+.user-icon{
+   margin-left: 63rem;
+}
+/* .user-icon i{
+    width: 20px;
+    height: 20px;
+
+} */
+
+    

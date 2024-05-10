@@ -1,0 +1,79 @@
+
+.view_profile{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(13,24,46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.view_profile table{ 
+    color: white;
+    padding: 20px;
+}   
+
+.profile-heading{
+    border: 2px solid yellow;
+}
+
+.view_profile .table-div{
+    height:80vh;
+    background: rgb(10,21,39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.view_profile table tbody{ 
+    
+    display: table;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.view_profile table{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.view_profile table th,td{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.view_profile table th{
+    width: auto;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.view_profile table td{
+    border: 1px solid white;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.view_profile h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.view_profile .heading{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+
+

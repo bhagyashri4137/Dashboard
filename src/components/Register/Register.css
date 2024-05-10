@@ -1,0 +1,110 @@
+.Register-body{
+    height: auto;
+    width: 100%;
+    background-color: rgb(65, 65, 180);
+    background-repeat:none;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+.Register-body .Register-form{
+    height: auto;   
+    width: 35rem;
+    color: white;
+    background-color: black;
+} 
+
+.login-headings {
+    margin: 15px;
+}
+
+.Register-form .Register-logo img{
+    height:5rem;
+    width: auto;
+    margin: 10px;
+}
+
+.Register-form .f1 input{
+    color: white;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    padding: 13px;
+    border: 2px solid orangered;
+    background-color: rgb(34,34,34);
+    margin: 0px 0px 30px 0px;
+}
+.Register-form .f1 select{
+    width: 80%;
+    border-radius: 5px;
+    padding: 13px;
+    border: 2px solid orangered;
+    background-color: rgb(34,34,34);
+    margin: 0px 0px 30px 0px;
+
+}
+
+/* .Register-form .f1 label{
+    font-size: 1rem;
+} */
+
+form .form-group span{
+  
+}
+
+.Register-form button{
+    font-weight: 400;
+    border: none;
+    width: 80%;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form .btn{
+    background: rgb(255, 98, 0) !important;
+}
+
+form .btn:hover{
+    background: green !important;
+}
+
+ 
+
+.Register-form .form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center;  */
+}
+
+.Register-form h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.Register-form .login-headings a{
+    color: white;
+
+} 
+
+@media (max-width:468px){
+    .Register-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .Register-form{
+       width: 40%;
+    }
+}

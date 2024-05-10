@@ -1,0 +1,65 @@
+
+.WalletAddress
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(13,24,46); 
+    color: white;
+}
+
+.WalletAddress .container-fluid h2{
+    font-size: 1.7rem;
+    padding: 30px;
+}
+
+.WalletAddress
+ .form-div{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(10,21,39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    border-radius: 20px;
+}
+
+.WalletAddress
+ .form-div button{
+    font-size: 1.1rem;
+    background-color: rgb(235,22,22);
+    border: none;
+    color:white;
+    padding: 7px;
+    border-radius: 7px;
+   
+}
+
+.WalletAddress .heading{
+    text-align: center;
+    margin:2rem;
+}
+
+.WalletAddress
+ .form-div input{  
+    padding: 15px;
+    width: 70%;
+    background-color: black ;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.WalletAddress
+ .form-div label{
+    font-size: 1.1rem;
+}
+
+.WalletAddress
+ .form-div ::placeholder{
+    font-size: 1rem;
+    color: rgb(168, 165, 165);
+}
+
+
+

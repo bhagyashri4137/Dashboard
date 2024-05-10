@@ -1,0 +1,125 @@
+.sidebar {
+    height: 100%;
+    background-color: rgb(13,24,46);   
+  }
+  .sidebar-logo img{
+    height:5rem;
+    margin: 5px;
+}
+
+.userlogo-sidebar  i{
+    margin-left: 2.5rem;
+}   
+
+.aside-navbar .c-name{
+    margin-right:2.5rem ;
+}
+
+.aside-navbar .Dashboard-logout i{
+   font-size: 1.3rem;
+   padding: 12px;
+   height: 1.8rem;
+   width:1.4rem;
+   background-color: black;
+   color: white;    
+   border-radius: 50%;
+   margin-left: 18px;
+   
+}
+
+.aside-navbar .accordion-item i{
+    margin: 5px;
+    font-size: 1.5rem;
+    padding:8px;
+    height: 2.5rem;
+    width:2.5rem;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 18px;
+    color: white;    
+   
+}
+
+.aside-navbar .Dashboard-logout{
+    color: white;
+    background-color:rgb(13,24,46) !important; ;
+}  
+
+.Dashboard-logout Link{
+  text-decoration: none;
+ 
+}
+.accordion .accordion-item{
+    background-color: rgb(13,24,46) !important;
+}
+.accordion .accordion-item .accordion-button{
+    background-color: rgb(13,24,46) !important;
+}
+#sidebar-nav {
+    width: 280px;
+  }
+
+
+  /* Top-navbar */
+main .navbar {
+  background-color: #0a1527;
+  width: 100%;
+  height: 3rem;
+  max-height: 3.5rem;
+  padding: 0 20px;
+} 
+
+.menu-icon {
+  background-color: #03050a;
+  color: rgb(29, 238, 189);
+  font-size: 16px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.username-dropdown {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.down-arrow {
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  left: -8rem;
+  background-color: #0a1527;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #03050a;
+  color: #fff;
+}
+
+.Dashboard-logout .accordion-item:hover::after{
+  color: cyan;
+}
+.accordion-item:hover{
+  color: cyan;
+}
+
+@media (max-width: 468px) {
+   .navbar {
+    position: fixed;
+  }
+}

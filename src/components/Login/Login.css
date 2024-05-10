@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.login-body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://mattaforex.com/assets/images/shape-2.png);
+    background-repeat:none;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+.login-body .login-form{
+    height: 90vh;
+    width: 450px;
+    color: white;
+    background-color: black;   
+} 
+
+.login-headings {
+    margin: 10px 0px 10px 0px;  
+}
+
+.form-input{
+    margin: 50px;
+}
+
+.login-body .login-form img{
+    height:6rem;
+    width: auto;
+    margin: 15px 0px 15px 0px;
+}
+
+.login-form .f1 input{
+    font-weight: 400;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: beige;
+    border: 2px solid rgb(9, 65, 130);
+    margin:0px 0px 20px 0px;
+}
+
+
+.login-form .form-check{
+    color: gray;
+    display: block;
+    margin: 2px;
+}
+.login-form .form-check Link{
+    color: gray;
+    margin: 10px;
+}
+
+.login-form h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+label{
+    font-weight: bold;   
+}
+
+form .btn{
+    display: inline-block;
+    width: 80%;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #0000ff 49%, #000066 99%);
+}
+
+
